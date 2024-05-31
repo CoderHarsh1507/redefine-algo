@@ -31,7 +31,7 @@ opacity: 0px;
     color: #FFFFFF;
 }
 
-.box3{
+.navbar{
     width: 47.04px;
 height: 44.92px;
 display:flex;
@@ -40,6 +40,7 @@ top: 17px;
 left: 61.35px;
 gap: 0px;
 opacity: 0px;
+z-index: 1000;
 
 }
 #p2{
@@ -260,7 +261,7 @@ opacity: 0px;
 
 }
 
-.review, .review1, .review2, .review3, .review4 {
+.review, .review1, .review2, .review3, .review4,.review5 {
     height: 500px;
     width: 500px;
     display: flex;
@@ -268,7 +269,7 @@ opacity: 0px;
     bottom: -500px; 
     right: 0;
     z-index: 1;
-    animation-duration: 6.9s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: normal;
   }
@@ -280,28 +281,29 @@ opacity: 0px;
   
   .review1 {
     animation-name: moveUp;
-    animation-delay: 1.8s; 
+    animation-delay: 2s; 
   }
   
   .review2 {
     animation-name: moveUp;
-    animation-delay: 3.5s; 
+    animation-delay: 4s; 
   }
   
   .review3 {
     animation-name: moveUp;
-    animation-delay: 5.2s; 
+    animation-delay: 6s; 
   }
   
   .review4 {
     animation-name: moveUp;
-    animation-delay: 6.9s; 
+    animation-delay: 8s; 
   }
   
   .review5 {
     animation-name: moveUp;
-    animation-delay: 5s; 
+    animation-delay: 10s; 
   }
+
   
   @keyframes moveUp {
     0% {
