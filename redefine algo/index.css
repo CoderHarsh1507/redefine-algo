@@ -1,0 +1,328 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.box1{width:100vw;
+height:100vh;
+opacity: 0px;
+background: #0045a6;
+}
+.box2{
+    width: 600px;
+height: 504px;
+display:flex;
+position:fixed;
+top: 268px;
+left: 57px;
+gap: 0px;
+opacity: 0px;
+
+}
+#p1{
+    font-family:Quicksand;
+    font-size: 45px;
+    display: flex;
+    position:absolute;
+    top:-119px;
+    left:2px;
+    font-weight: 0;
+    line-height: 60px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.box3{
+    width: 47.04px;
+height: 44.92px;
+display:flex;
+position:fixed;
+top: 17px;
+left: 61.35px;
+gap: 0px;
+opacity: 0px;
+
+}
+#p2{
+    width: 163.6px;
+height: 52.01px;
+display:flex;
+position:fixed;
+top: -15px;
+left: 118.61px;
+gap: 0px;
+opacity: 0px;
+
+    font-family: Poppins;
+font-size: 31px;
+font-weight: 400;
+line-height: 46.5px;
+text-align: left;
+color: #FFFFFF;
+
+}
+#p3{
+    width: 122px;
+height: 28px;
+display:flex;
+position:fixed;
+color:#FFFFFF;
+top: 8px;
+left: 330px;
+gap: 0px;
+opacity: 0px;
+font-family: Quicksand;
+font-size: 22px;
+font-weight: 700;
+line-height: 27.5px;
+text-align: left;
+
+}
+#p4{
+    width: 117px;
+height: 28px;
+color:#FFFFFF;
+display:flex;
+position:fixed;
+top: 9px;
+left:480px;
+gap: 0px;
+opacity: 0px;
+font-family: Quicksand;
+font-size: 22px;
+font-weight: 700;
+line-height: 27.5px;
+text-align: left;
+
+}
+#p5{
+    width: -20px;
+    height: 28px;
+    color:#FFFFFF;
+    display:flex;
+    position:fixed;
+    top: 5px;
+    left:640px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Quicksand;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27.5px;
+    text-align: left;
+    
+
+}
+#p6{
+    width: -20px;
+    height: 28px;
+    color:#FFFFFF;
+    display:flex;
+    position:fixed;
+    top: 5px;
+    left:880px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Quicksand;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27.5px;
+    text-align: left;
+    
+
+}
+#p7{
+    width: -20px;
+    height: 28px;
+    color:#FFFFFF;
+    display:flex;
+    position:fixed;
+    top: 5px;
+    left:1040px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Quicksand;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27.5px;
+    text-align: left;
+    
+
+}
+#p8{
+    width: 80px;
+    height: 28px;
+    color:#FFFFFF;
+    display:flex;
+    position:fixed;
+    top: 5px;
+    left:1340px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Quicksand;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27.5px;
+    text-align: left;
+    
+
+}
+#p9{
+    width: 80px;
+    height: 28px;
+    color:#FFFFFF;
+    display:flex;
+    position:fixed;
+    top: 30px;
+    left:1450px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Quicksand;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27.5px;
+    text-align: left;
+    
+}
+.box4{
+    width: 167px;
+height: 38px;
+display:flex;
+position:fixed;
+top: 420px;
+left: 1140px;
+gap: 0px;
+opacity: 0px;
+
+}
+#img1{
+    width: 167px;
+height: 38px;
+display:flex;
+position:fixed;
+top: 300px;
+left: 850px;
+gap: 0px;
+opacity: 0px;
+    
+}
+#img2{
+    width: 200px;
+height: 98px;
+display:flex;
+position:fixed;
+top: 580px;
+left: 900px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+#img3{
+    width: 150px;
+height: 38px;
+display:flex;
+position:fixed;
+top: 120px;
+left: 1100px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+#img4{
+    display:flex;
+    position:fixed;
+    top:570px;
+    left:50px;
+    opacity:0px;
+}
+#shape1{
+    height:180px;
+    display:flex;
+    position:fixed;
+    top:160px;
+    right:320px;
+}
+#shape2{
+    height:180px;
+    display:flex;
+    position:fixed;
+    top:343px;
+    right:337px;
+}
+#shape3{
+    height:180px;
+    display:flex;
+    position:fixed;
+    top:460px;
+    right:220px;
+
+
+}
+
+.review, .review1, .review2, .review3, .review4 {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    position: fixed;
+    bottom: -500px; 
+    right: 0;
+    z-index: 1;
+    animation-duration: 6.9s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+  }
+  
+  .review {
+    animation-name: moveUp;
+    animation-delay: 0s;
+  }
+  
+  .review1 {
+    animation-name: moveUp;
+    animation-delay: 1.8s; 
+  }
+  
+  .review2 {
+    animation-name: moveUp;
+    animation-delay: 3.5s; 
+  }
+  
+  .review3 {
+    animation-name: moveUp;
+    animation-delay: 5.2s; 
+  }
+  
+  .review4 {
+    animation-name: moveUp;
+    animation-delay: 6.9s; 
+  }
+  
+  .review5 {
+    animation-name: moveUp;
+    animation-delay: 5s; 
+  }
+  
+  @keyframes moveUp {
+    0% {
+      bottom: -500px; 
+      right: 0px;
+    }
+    25% {
+      bottom: 0px; 
+      right:200px;
+    }
+    50% {
+      bottom: 300px; 
+      right: 0px;
+    }
+    75% {
+      bottom: 500px; 
+      right: -100px;
+    }
+    100% {
+      bottom: 600px; 
+      right: -200px;
+    }
+  }
+  
